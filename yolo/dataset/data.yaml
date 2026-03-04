@@ -1,0 +1,9 @@
+path: ./yolo/dataset
+train: images/train
+val: images/val
+
+names:
+  0: fish
+  1: bar
+  2: track
+  3: progress

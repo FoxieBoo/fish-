@@ -1,0 +1,44 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# PyInstaller
+build/
+dist/
+fish.spec
+
+# 调试输出
+debug/
+
+# 行为克隆数据 (个人录制)
+imitation/data/
+imitation/policy.pt
+
+# YOLO 训练数据集 (太大)
+yolo/dataset/images/
+yolo/dataset/labels/
+
+# YOLO 中间权重 (只保留 best.pt)
+yolo/runs/fish_detect/weights/epoch*.pt
+yolo/runs/fish_detect/weights/last.pt
+
+# 预训练基础模型 (用户按需下载)
+yolo26n.pt
+yolov8n.pt
+
+# 大文件
+*.whl
+patch_*.zip
+
+# IDE
+.vscode/
+.idea/
+.cursor/
+
+# 系统
+Thumbs.db
+.DS_Store
+
+# 用户个人设置 (每人不同)
+settings.json
